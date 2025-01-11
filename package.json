@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "node --watch app.js",
     "start": "node app.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.0.1"
+  }
 }
