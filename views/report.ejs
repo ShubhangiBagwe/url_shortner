@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <%- include('header') %>
+    <h1>Student Report Card</h1>
+
+    <% student.map((stud)=> {%>
+        <h2>Name = <%= stud.name %>
+        </h2>
+        <h2>Grade = <%= stud.grade %>
+        </h2>
+        <h2>Position = <%= stud.role %>
+        </h2>
+        <% }) %>
+</body>
+
+</html>
